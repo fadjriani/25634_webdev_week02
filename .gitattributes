@@ -1,2 +1,101 @@
 # Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html>
+ <head>
+ <style>
+.title {
+text-align : center;
+color : lightblue;
+background: blue;
+line-height : 40px;}
+
+.category {
+display: inline-block; 
+background: blue;
+color: white;
+line-height: 25px;
+padding : 2px;
+}
+
+.item_title{
+text-align : center;
+color : blue;
+padding : 4px;
+font-weight: bold;}
+
+ .item_list{
+background-color: lightblue;
+width : 97%;
+height : 500px;
+padding : 10px;}
+
+
+.item_list_left{
+width : 39%;
+height : 470px;
+float : left;
+background-color:lightblue;
+border : 2px dotted grey;
+overflow: scroll;
+text-align : center; }
+
+
+.item_list_right{
+width : 59%;
+height : 470px;
+float : right;
+background-color:lightblue;
+border : 2px dotted grey;
+overflow: scroll;
+text-align : center; }
+
+.item{
+width: 140px;
+height: 140px;
+padding : 2px;
+padding-right: 20px;
+padding-left: 20px;}
+
+ </style>
+<title>Your Online Shop's Name</title>
+ <link rel="stylesheet" type="text/css" href="itemstyle.css" />
+ </head>
+ <body>
+<div class="title">
+ Your Online Shop's Name
+</div>
+<br>
+<span class="category_list">
+ <span class="category">Category 1</span>
+ <span class="category">Category 2</span>
+ <span class="category">Category 3</span>
+</div>
+<br>
+<div class="item_list">
+ <div class="item_list_left">
+<div class="item_title">Hot Item</div>
+<img class="item" src="images.png" alt="images" />
+<img class="item" src="images.png" alt="images" />
+<img class="item" src="images.png" alt="images" />
+<img class="item" src="images.png" alt="images" />
+<img class="item" src="images.png" alt="images" />
+ <img class="item" src="images.png" alt="images" />
+ </div>
+ <div class="item_list_right">
+<div class="item_title">Item</div>
+<img class="item" src="images.png" alt="images" />
+<img class="item" src="images.png" alt="images" />
+<img class="item" src="images.png" alt="images" />
+<img class="item" src="images.png" alt="images" />
+<img class="item" src="images.png" alt="images" />
+<img class="item" src="images.png" alt="images" />
+<img class="item" src="images.png" alt="images" />
+<img class="item" src="images.png" alt="images" />
+<img class="item" src="images.png" alt="images" />
+<img class="item" src="images.png" alt="images" />
+<img class="item" src="images.png" alt="images" />
+<img class="item" src="images.png" alt="images" />
+ </div>
+</div>
+ </body>
+</html>
